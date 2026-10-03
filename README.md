@@ -42,7 +42,7 @@ git clone 'https://github.com/Shravani-Sagane/Expense_Tracker.git'
 
 ## Screenshot
 
-Add your project screenshot here:
+
 
 
 <img width="1907" height="590" alt="Screenshot 2026-10-03 234950" src="https://github.com/user-attachments/assets/a5658bb8-d56b-4419-9bd7-6e583dcc8e7c" />
