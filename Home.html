@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    table{
+      border-collapse:separate;
+      width: 100%;
+      border-radius:20px;
+    }
+    th,td{
+      border: 1px solid black;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="main">
+    <header class="h1">Expense Tracker
+    </header>
+    
+    <div class="sidebar">
+      
+    
+      <div class="maincontent">
+        <div class="form">
+          <form id="form">
+            <input type="text" placeholder="Name" id="f1" class="name" required>
+            <input type="number" placeholder="Amount" id="f1" class="amount" required>
+            <div id="f1">
+              <select name="Caregory" id="f1" class="category" required>
+                <option value="" selected disabled hidden>Select Category</option>
+                <option>Food</option>
+                <option>Transport</option>
+                <option>Rent</option>
+                <option>Other</option>
+
+              </select>
+            </div>
+            <input type="date" id="f1" class="date">
+            <button type="submit"  id="f1" class="submit-button">Add Expense</button>
+          </form>
+            </br><br>
+        </div>
+        <div class="itemlist">
+
+                
+          <table id="expense-table" >
+            <thead>
+              <tr>
+                        
+                            
+
+                <th>Expense</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody id="expense-list">
+
+            </tbody>
+          </table>
+
+        </div>
+
+
+        <div id="total">
+          <strong>Total:</strong>
+          <span id="total-amount">0</span> Ru.
+        </div>
+        <div><button id="screenshot" onclick="tackScreenShot()">screenshot</button></div>
+
+      </div>
+
+
+    </div>
+  </div> 
+ 
+  
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
